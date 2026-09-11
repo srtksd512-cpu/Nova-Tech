@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Nove Tech - Electronic store</title>
+    <style>
+      body {
+        background-color: #101820;
+        font: Arial;
+      }
+      h1 {
+        color: cyan;
+        font-size: 38px;
+        text-align: center;
+      }
+      h2 {
+        color: yellow;
+        font-size: 38px;
+        text-align: center;
+      }
+      h3 {
+        color: lightgreen;
+        font-size: 28px;
+        text-align: center;
+      }
+      p {
+        color: white;
+        font-size: 17px;
+      }
+      .threeboxes {
+        background-color: #1b2633;
+        width: 300px;
+        padding: 20px;
+        margin: 20px;
+        border: 2px solid cyan;
+        border-radius: 12px;
+      }
+      .intro {
+        font-family: Arial;
+        font-size: 18px;
+        color: #d9e2ec;
+        text-align: center;
+        width: 70%;
+        line-height: 1.6;
+        margin: auto;
+      }
+      .navigate {
+        text-align: center;
+        font-size: 25px;
+        color: purple;
+      }
+      .products {
+        display: flex;
+      }
+      .buy {
+        background-color: black;
+        color: red;
+        border-radius: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="navigate">Home | Products | About | Contact</p>
+    <h1>NOVA TECH</h1>
+    <p class="intro">
+      Your one-stop shop for modern technology and everyday gadgets. Discover
+      reliable products designed to make your digital life easier.
+    </p>
+    <h2>FEATURED PRODUCTS</h2>
+    <div class="products">
+      <div class="threeboxes">
+        <h3>Wireless Headphones</h3>
+        <p>Enjoy clear sound and comfortable audio.</p>
+        <button
+          class="buy"
+          onclick="alert('Wireless headphones added to your interest list!')"
+        >
+          BUY
+        </button>
+      </div>
+      <div class="threeboxes">
+        <h3>Gaming Mouse</h3>
+        <p>Take your gaming experience to a next level.</p>
+        <button
+          class="buy"
+          onclick="alert('Gaming mouse added to your interest list!')"
+        >
+          BUY
+        </button>
+      </div>
+      <div class="threeboxes">
+        <h3>Mechanical Keyboard</h3>
+        <p>Type faster and enjoy satisfying clicks.</p>
+        <button
+          class="buy"
+          onclick="alert('Mechanical Keyboard added to your interest list!')"
+        >
+          BUY
+        </button>
+      </div>
+    </div>
+    <h2>ABOUT NOVA TECH</h2>
+    <p class="intro">
+      NOVA TECH is an online electronics store focused on bringing useful and
+      exciting technology to everyone.
+    </p>
+    <h2>CONTACT US</h2>
+    <p class="intro">
+      Have a question about our products? Contact the NOVA TECH team and we will
+      be happy to help.
+    </p>
+    <script>
+      function buy() {
+        alert("Wireless Headphones added to your interest list!");
+      }
+      function buy() {
+        alert("Gaming Mouse added to your interest list!");
+      }
+      function buy() {
+        alert("Mechanical Keyboard added to your interest list!");
+      }
+    </script>
+  </body>
+</html>
